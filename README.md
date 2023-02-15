@@ -1,6 +1,6 @@
 # Kotlin Coroutines Practice Code
 
-This is just a practice code. Used to implement core the concept of coroutines
+This is just a practice code. Used to implement core concept of coroutines
 
 ### Topic cover
 
@@ -34,6 +34,11 @@ This is just a practice code. Used to implement core the concept of coroutines
             → return some data or null if timeOut occur
             → not to need to handle timeoutCancelException
 
+    • Composing Suspending functions
+        → By default function are sequential
+        → Concurrent function
+        → Lazy Coroutine execution
+            → used to avoid execution when return value is unused
 
 
 
