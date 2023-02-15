@@ -39,6 +39,16 @@ This is just a practice code. Used to implement core concept of coroutines
         → Concurrent function
         → Lazy Coroutine execution
             → used to avoid execution when return value is unused
+    • CoroutineScope, CoroutineContext and Dispatchers
+        → CoroutineScope
+            → Each Coroutine has its own CoroutineScope instance attached to it
+            → unique
+        → CoroutineContext
+            → may be inherited form parent
+            → Job
+            → Dispatcher
+                → Dispatcher determines the thread of a coroutine
+            → CoroutineName
 
 
 
